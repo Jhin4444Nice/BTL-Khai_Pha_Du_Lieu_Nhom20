@@ -1,0 +1,8 @@
+Kiểm tra chéo 5 phần: [0.9, 0.875, 0.925, 0.9, 0.9487179487179487]
+Accuracy trung bình: 90.974359%
+Đúng khi dùng height, weight, cả hai: [49, 53, 54]
+Mốc so sánh luôn đoán F. McNemar hai phía: b=23, c=2, p=1.943111419677734e-05
+Weka 3.8.6 (đã lưu và kiểm tra khớp dữ liệu ARFF)
+Nhãn Python và Weka trùng nhau: 60/60
+Weka đoán đúng: 54/60
+Mã bản ghi Weka đoán sai: [61, 71, 10, 123, 175, 82]

@@ -1,0 +1,54 @@
+WARNING: core mtj jar files are not available as resources to this classloader (jdk.internal.loader.ClassLoaders$AppClassLoader@639fee48)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                  Class
+Attribute             F        M
+                 (0.56)   (0.44)
+=================================
+height
+  mean          164.9123 177.9588
+  std. dev.       5.3762   6.2906
+  weight sum          78       61
+  precision       1.3243   1.3243
+
+weight
+  mean           57.1897  74.9721
+  std. dev.       7.0684   11.355
+  weight sum          78       61
+  precision       1.7045   1.7045
+
+
+
+Time taken to build model: 0.05 seconds
+
+Time taken to test model on test data: 0.01 seconds
+
+=== Error on test data ===
+
+Correctly Classified Instances          54               90      %
+Incorrectly Classified Instances         6               10      %
+Kappa statistic                          0.7966
+Mean absolute error                      0.1266
+Root mean squared error                  0.2806
+Relative absolute error                 25.6325 %
+Root relative squared error             56.3934 %
+Total Number of Instances               60     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.939    0.148    0.886      0.939    0.912      0.798    0.962     0.969     F
+                 0.852    0.061    0.920      0.852    0.885      0.798    0.962     0.959     M
+Weighted Avg.    0.900    0.109    0.901      0.900    0.900      0.798    0.962     0.965     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 31  2 |  a = F
+  4 23 |  b = M
+

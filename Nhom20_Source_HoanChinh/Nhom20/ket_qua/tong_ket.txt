@@ -1,0 +1,4 @@
+Huấn luyện: 139 | Kiểm thử: 60
+Dự đoán đúng: 54/60
+Accuracy: 90.00% | Macro-F1: 0.8982
+Mốc so sánh (luôn đoán F): 55.00%

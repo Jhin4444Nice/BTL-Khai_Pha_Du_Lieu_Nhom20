@@ -1,0 +1,9 @@
+{
+  "weka_version": "3.8.6",
+  "classifier": "weka.classifiers.bayes.NaiveBayes",
+  "evaluation": "Supplied test set",
+  "sha256": {
+    "train_139.arff": "542d23c39e1c470383bececaca89a7e2badae7123155817e0693ef9be4fb6796",
+    "test_60.arff": "544e2ec1e340d9c7ee4ed14ba14f714c0b5fe49d163d585c899dfd24ff7d0985"
+  }
+}

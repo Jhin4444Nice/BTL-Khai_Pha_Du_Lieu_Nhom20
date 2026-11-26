@@ -1,0 +1,4 @@
+thuoc_tinh,so_dung,accuracy,F_dung,M_dung
+height,49,0.8166666666666667,28,21
+weight,53,0.8833333333333333,32,21
+height+weight,54,0.9,31,23
